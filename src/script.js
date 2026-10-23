@@ -13,7 +13,7 @@ function change_tab(tab_index) {
     sections[tab_index].hidden = false
 }
 
-// Sets the section to data_sources when 1st loading the page
+// Sets the only visible section to data_sources when 1st loading the page
 change_tab(0)
 
 // Adds an event listener to each button that switches to their coorosponding tab
